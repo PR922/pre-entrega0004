@@ -1,0 +1,16 @@
+// 1. Utilities (variables y mixins)
+@use "utilities/variables" as *;
+@use "utilities/mixins" as *;
+
+// 2. Base (resets y tipografía)
+@use "base/base";
+@use "base/tipografia";
+
+// 3. Layout (estructura fija del sitio)
+@use "layout/header";
+@use "layout/nav";
+@use "layout/footer";
+
+// 4. Components (elementos reutilizables)
+@use "components/buttons";
+@use "components/cards";
